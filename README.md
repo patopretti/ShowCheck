@@ -18,5 +18,41 @@ ShowCheck reports on the performance of Ableton Live sessions. Built for playbac
 * Exportación inteligente: Genera informes completos al finalizar la sesión
 * Múltiples formatos: Exporta datos como CSV, gráficos PNG, estadísticas JSON e informes HTML interactivos
 
+## Informes interactivos
+* Tema oscuro/claro: Informes HTML responsivos con cambio de tema
+* Gráficos con zoom: Visualizaciones de series temporales con paneo y zoom
+* Métricas completas: Tablero multipanel con todos los parámetros monitoreados
+* Resumen de performance: Estadísticas clave
+
+# 📋 Requisitos
+## Requisitos del sistema
+* Python 3.7+
+* macOS (Corriendo en Macbook M1/M2/M3/M4)
+* Ableton Live 11 o 12
+
+# 🚀 Instalación
+* Descarga el ShowCheck.app (macOS) más reciente desde Releases
+* Arrastra ShowCheck.app a Aplicaciones antes de abrirla
+* Abrir la carpeta Aplicaciones.
+* Haz clic derecho en ShowCheck.app → Abrir.
+* macOS mostrará "no se puede verificar el desarrollador" → Haz clic en Abrir.
+* Si el botón "Abrir" no aparece:
+  * Ve a "Ajustes del Sistema" → "Privacidad y seguridad".
+  * Busca "Se bloqueó ShowCheck" en la parte inferior → Haz clic en "Abrir de todos modos" → Abrir.
+  (Este paso se hace una sola vez. Luego podés abrirla normalmente (doble click))
+* Instala el dispositivo Max for Live
+* Descarga ShowCheck.amxd desde Releases
+* En Ableton Live, arrastra el dispositivo a una pista MIDI
+* El dispositivo enviará mensajes OSC a ShowCheck automáticamente cuando des play/stop
+
+# 🎯 Uso
+* Inicia ShowCheck
+* Carga el dispositivo M4L en tu set de Ableton Live
+* Presiona PLAY en Ableton: el monitoreo comienza automáticamente
+* Presiona STOP en Ableton: se genera el informe de sesión automáticamente
+
+
+
+
 
 
