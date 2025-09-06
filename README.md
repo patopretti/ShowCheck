@@ -51,6 +51,28 @@ ShowCheck reports on the performance of Ableton Live sessions. Built for playbac
 * Presiona PLAY en Ableton: el monitoreo comienza automáticamente
 * Presiona STOP en Ableton: se genera el informe de sesión automáticamente
 
+# Archivos de salida
+* Cuando finaliza una sesión, ShowCheck genera automáticamente:
+ * session_YYYYMMDD_HHMMSS.csv - Datos crudos de monitoreo
+ * session_YYYYMMDD_HHMMSS.png - Gráficos de rendimiento
+ * session_YYYYMMDD_HHMMSS_stats.json - Resumen estadístico
+ * session_YYYYMMDD_HHMMSS_report.html - Informe interactivo
+* Los archivos se guardan en tu Escritorio por defecto.
+
+# 🙏 Créditos
+@patopretti
+Contribución cyborg: 60% humano y 40% automatizado (aprox.) en co-agencia pacífica
+
+# 📈 Historial de versiones
+## v0.1 (Actual)
+ * Lanzamiento inicial
+ * Monitoreo en tiempo real con integración OSC
+ * Informes HTML interactivos con temas claro/oscuro
+ * Métricas completas del sistema
+ * Detección automática de sesiones
+ * Sistema de alertas de rendimiento
+ * Monitoreo de batería y temperatura
+ * Exportación en múltiples formatos (CSV, PNG, JSON, HTML)
 
 
 
